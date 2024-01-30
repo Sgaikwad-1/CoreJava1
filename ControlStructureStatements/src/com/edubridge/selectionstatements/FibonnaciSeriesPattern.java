@@ -8,13 +8,13 @@ public class FibonnaciSeriesPattern {
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int a=0, b=1, c;
-		System.out.println(a+" "+b+" ");
+		System.out.print(a+" "+b+" ");
 		for(int i=3; i<=n; i++)
 		{
 			c=a+b;
 			a=b;
 			b=c;
-			System.out.println(c+" ");
+			System.out.print(c++ +" ");
 		}
 		
 
