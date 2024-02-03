@@ -12,7 +12,8 @@ public class NestedIfdemo {
 		{
 			if((weight>=45 && weight<=110) || weight>=110)
 			{
-				System.out.println("eligible for bunjee jumping.if weight>110 extra roop will be added ");
+				System.out.println("eligible for bunjee jumping.if weight>110"
+						+ " extra roop will be added ");
 		    }
 		    else {
 			System.out.println("eligible for bunjee jumping.");
