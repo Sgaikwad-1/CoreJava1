@@ -7,10 +7,6 @@ public class Learner implements Deletable {
 	{
 		if(o instanceof Deletable)
 			return true;
-		return false;
-		
-		
+		return false;	
 	}
-
-
 }
