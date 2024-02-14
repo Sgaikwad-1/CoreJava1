@@ -5,7 +5,6 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-
 public class SetDemo {
 
 	public static void main(String[] args) {
