@@ -1,4 +1,4 @@
-package com.eb.database;
+package com.eb.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,5 +20,5 @@ catch(Exception e)
 e.printStackTrace();
 }
 return conn;
-}
+	}
 }

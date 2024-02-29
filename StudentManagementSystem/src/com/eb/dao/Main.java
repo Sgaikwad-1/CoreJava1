@@ -1,8 +1,7 @@
-package com.eb.main;
+package com.eb.dao;
 
 import java.util.Scanner;
 
-import com.eb.dao.StudentDao;
 import com.eb.pojo.Student;
 
 public class Main {
@@ -77,10 +76,29 @@ public class Main {
 				
 		}
 				else {
-					System.out.println("DATA IS NOT UPDATED");
+					System.out.println("Data is not uploaded");
 				}
-		
+				break;
+			case 3:
+				System.out.println("Enter Id which u want to delete:");
+				
+				int id=sc.nextInt();
+				StudentDao.deleteStudentData(id);
+				System.out.println("Id is deleted");
+				break;
+			case 4:
+				StudentDao.showAllStudentData();
+				break;
+			case 5:
+				System.out.println("Bye Bye");
+				break;
+				default:
+					System.out.println("Wrong choice");
 
-	}
-
+	}		
+}while(ch!=5);
 }
+}
+
+
+	
